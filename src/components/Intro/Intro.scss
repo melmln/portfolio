@@ -1,0 +1,28 @@
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+
+    h5 {
+        font-weight: 400;
+        font-size: 16px;
+        font-family: var(--baloo-font);
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    h4 {
+        font-size: 20px;
+        font-weight: 400;
+
+        .front-dev {   
+            font-family: var(--poppins-font);
+            font-weight: 600;
+        }
+    }
+}
