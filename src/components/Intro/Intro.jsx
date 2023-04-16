@@ -4,7 +4,7 @@ import avatar from '../../assets/avatar.png'
 const Intro = () => {
   return (
     <>
-        <div className="intro-container">
+        <div className="intro">
             <div className="info-intro-container">
               <h5>Hi! My name is</h5>
               <h1 className="my-name">Melany Molina Verdún</h1>

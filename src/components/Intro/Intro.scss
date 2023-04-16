@@ -1,11 +1,12 @@
-.intro-container {
+.intro {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 60px;
     height: 100vh;
-
+    padding-top: 70px;
+    
     .info-intro-container {
         padding-left: 30px;
         
@@ -57,6 +58,7 @@
         padding: 10px 20px;
         font-size: 14px;
         box-shadow: 0px 3px 0px 0px #000000;
+
     }
 
     .social-networks-container {
@@ -66,7 +68,7 @@
         width: 100%;
         position: absolute;
         left: 0;
-        bottom: 30px;
+        bottom: 0;
         
         .line {
             height: 2px;

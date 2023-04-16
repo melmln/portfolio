@@ -5,11 +5,8 @@ nav {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 10;
 
-    .logo {
-        font-family: var(--baloo-font);
-        font-weight: 500;
-    }
 
     .hello-btn {
         background-color: black;
