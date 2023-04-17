@@ -1,0 +1,33 @@
+[
+    {
+        "id": "01.",
+        "title": "Polaroid",
+        "img": "polaroid-project.png",
+        "type": "E-commerce",
+        "description": "E-commerce website developed with React.js, Firebase and CSS. Cart function, item detail, and category filter."
+    },
+
+    {
+        "id": "02.",
+        "title": "Hogar El Alba",
+        "img": "hogar-el-alba-project.png",
+        "type": "Website",
+        "description": "Responsive website developed with React.js, CSS. and some libraries. The site includes modals and burger menu functions."
+    },
+
+    {
+        "id": "03.",
+        "title": "Pinned",
+        "img": "pinned-project.png",
+        "type": "Web App",
+        "description": "Responsive web app developed with JavaScript, CSS. and SweetAlert library. The app allows users to take notes, save them, and listen to music."
+    },
+
+    {
+        "id": "04.",
+        "title": "Portfolio",
+        "img": "portfolio-project.png",
+        "type": "Personal Portfolio",
+        "description": "Personal portfolio website developed with React.js and Sass. My first UX/UI design project done with Figma."
+    }
+]
