@@ -77,8 +77,10 @@
         }
 
         .social-networks {
+            display: flex;
+            gap: 30px;
             background-color: white;
-            padding: 0 60px;
+            padding: 0 40px;
         }
     }
 }

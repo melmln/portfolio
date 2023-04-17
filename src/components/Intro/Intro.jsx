@@ -1,5 +1,8 @@
 import './Intro.scss';
 import avatar from '../../assets/avatar.png'
+import linkedinIcon from '../../assets/icons/linkedin-icon.png'
+import githubIcon from '../../assets/icons/github-icon.png'
+import behanceIcon from '../../assets/icons/behance-icon.png'
 
 const Intro = () => {
   return (
@@ -19,7 +22,11 @@ const Intro = () => {
         
             <div className="social-networks-container">
               <div className="line"></div>
-              <div className="social-networks">Icons</div>
+              <div className="social-networks">
+                <img src={linkedinIcon} alt="" className="linkedin-icon" />
+                <img src={githubIcon} alt="" className="github-icon" />
+                <img src={behanceIcon} alt="" className="behance-icon" />
+              </div>
               <div className="line"></div>
             </div>
             
