@@ -17,11 +17,11 @@ const Technologies = () => {
                             const {name, id, img} = technology
 
                         return (
-                            <div key={id} className="technology">
+                            <div key={id} className={`technology ${ name}`}>
                                 <img 
                                 src={`src/assets/img/Technologies/${img}`}
                                 alt={name} 
-                                className={`technology-img ${name}`} />
+                                className={`technology-img`} />
                             </div>
                         )
                     })}

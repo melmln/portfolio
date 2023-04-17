@@ -15,7 +15,9 @@ const Intro = () => {
             </div>
 
             <div className="avatar-container">
-              <img src={avatar} alt="avatar" className="avatar" />
+              <div className="avatar-background">
+                <img src={avatar} alt="avatar" className="avatar" />
+              </div>
             </div>
 
             <button className="resume-btn">Resume</button>
@@ -23,9 +25,9 @@ const Intro = () => {
             <div className="social-networks-container">
               <div className="line"></div>
               <div className="social-networks">
-                <img src={linkedinIcon} alt="" className="linkedin-icon" />
-                <img src={githubIcon} alt="" className="github-icon" />
-                <img src={behanceIcon} alt="" className="behance-icon" />
+                <img src={linkedinIcon} alt="linkedin" className="linkedin-icon" />
+                <img src={githubIcon} alt="github" className="github-icon" />
+                <img src={behanceIcon} alt="behance" className="behance-icon" />
               </div>
               <div className="line"></div>
             </div>

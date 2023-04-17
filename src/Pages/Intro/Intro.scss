@@ -4,10 +4,9 @@
     align-items: center;
     flex-direction: column;
     gap: 60px;
-    height: 100vh;
-    padding-top: 70px;
     
     .info-intro-container {
+        padding-top: 5rem;
         padding-left: 30px;
         
         h5 {
@@ -35,20 +34,24 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        height: 227px;
-        width: 240px;
-        background-color: #DDDDDD;
-        border-radius: 50%;
-        padding: 0 30px;
-        margin-top: 40px;
-        box-shadow: 0px 7px 0px 0px var(--lightBlue);
+        
 
-        .avatar {
-            position: absolute;
-            width: 100%;
-            left: 0;
-            bottom: 0;
-        }
+        .avatar-background {
+            background-color: #DDDDDD;
+            border-radius: 50%;
+            padding: 0 30px;
+            margin-top: 40px;
+            height: 227px;
+            width: 240px;
+            box-shadow: 0px 7px 0px 0px var(--lightBlue);
+
+            .avatar {
+                position: absolute;
+                width: 100%;
+                left: 0;
+                bottom: 0;
+            }
+    }
     }
 
     .resume-btn {
@@ -66,9 +69,8 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        position: absolute;
-        left: 0;
-        bottom: 0;
+        padding: 20px 0;
+       
         
         .line {
             height: 2px;
@@ -79,7 +81,6 @@
         .social-networks {
             display: flex;
             gap: 30px;
-            background-color: white;
             padding: 0 40px;
         }
     }

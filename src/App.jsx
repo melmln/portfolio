@@ -1,8 +1,9 @@
 import './App.scss';
 import Header from './components/Header/Header';
-import Intro from './components/Intro/Intro';
-import About from './components/About/About';
-import Technologies from './components/Technologies/Technologies.jsx';
+import Intro from './Pages/Intro/Intro';
+import About from './Pages/About/About';
+import Technologies from './Pages/Technologies/Technologies'
+import Projects from './Pages/Projects/Projects';
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
       <Intro/>
       <About/>
       <Technologies/>
+      <Projects/>
     </>
   )
 }
 
-export default App
+export default App;
