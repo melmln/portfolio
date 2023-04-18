@@ -1,5 +1,6 @@
 import './Projects.scss'
 import codeIllustration from '../../assets/img/Projects/code-illustration.png'
+import ProjectWindow from '../../components/ProjectWindow/ProjectWindow'
 
 const Projects = () => {
   return (
@@ -25,6 +26,8 @@ const Projects = () => {
                 </div>
             </div>
         </div>
+
+        <ProjectWindow/>
     </>
   )
 }
