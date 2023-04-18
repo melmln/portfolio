@@ -13,6 +13,7 @@
         justify-content: space-between;
         align-items: center;
         padding-right: 20px;
+        padding-bottom: 40px;
 
         .title {
             font-size: 35px;
@@ -38,17 +39,70 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        border: 1px solid black;
-        border-radius: 5px;
-        box-shadow: 20px 20px 0px 0px #000000;
-        height: 500px;
-        
+        margin: 20px;
+        margin-left: 10px;
 
-        form {
+        .form-window {
             display: flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
-            gap: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 12px 12px 0px 0px #000000;
+            height: 500px;
+            width: 100%;        
+            
+    
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                width: 100%;
+                height: 430px;
+                font-size: 16px;
+                padding-top: 15px;
+
+                .input-container {
+                    display: flex;
+                    width: 100%;
+                    padding: 0 30px;
+
+                    .email, .name, .subject {
+                        width: 40%;
+                    }
+
+                    input {
+                        width: 100%;
+                        border-radius: 10px;
+                        border: 1px solid black;
+                    }
+                }
+
+                textarea {
+                    width: 90%;
+                    border-radius: 10px;
+                }
+            }
+            
+            .lets-talk-container {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                padding-right: 20px;
+                width: 100%;
+
+                .lets-talk-btn {
+                    font-size: 16px;
+                    padding: 5px 15px;
+                    border-radius: 5px;
+                    background-color: var(--pink); 
+                    box-shadow: 2px 2px 0px 0px #000000;
+
+                }
+            }
         }
+        
     }
 }

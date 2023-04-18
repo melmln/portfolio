@@ -38,12 +38,14 @@ const Contact = () => {
                         name="textarea" 
                         id="" 
                         cols="30" 
-                        rows="10"
+                        rows="15"
                         className='textarea'
                         >
-
                         </textarea>
                     </form>
+                    <div className="lets-talk-container">
+                        <button className="lets-talk-btn">Let's talk!</button>
+                    </div>
                 </div>
             </div>
         </div>
