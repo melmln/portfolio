@@ -1,15 +1,13 @@
+// mixins
+@import '../../scss/abstracts/mixins';
+
 .projects {
     .projects-h1 {
-        font-size: 18px;
-        font-family: var(--baloo-font);
-        font-weight: 600;
-        padding-left: 30px;
+        @include section-title;
     }
 
     .window {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        @include center-column;
         border: 1px solid black;
         margin: 30px 10px;
 
@@ -21,9 +19,7 @@
         }
 
         .window-illustration {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+           @include center;
             flex-direction: column;
             background-color: #0F0F10;
             padding: 100px 0;
@@ -56,12 +52,9 @@
 
             }
             .vscode-illustration {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include center;
                 width: 80%;
                 height: 200px;
-                align-items: center;
                 background-color: transparent;
                 border: 3px solid var(--grey);
                 border-radius: 5px;

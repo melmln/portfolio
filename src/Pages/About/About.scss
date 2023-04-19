@@ -1,17 +1,15 @@
+// mixins 
+@import '../../scss/abstracts/mixins';
+
 .about {
     padding-top: 35px;
 
 .about-h1 {
-    font-size: 18px;
-    font-family: var(--baloo-font);
-    font-weight: 600;
-    padding-left: 30px;
+    @include section-title;
 }
 
 .window {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    @include center-column;
     border: 1px solid black;
     margin: 30px 10px;
 
@@ -78,6 +76,5 @@
         line-height: 25px;
     }
 }
-
 
 }

@@ -1,3 +1,6 @@
+//mixins 
+@import '../../scss/abstracts/mixins';
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -9,13 +12,11 @@ nav {
 
 
     .hello-btn {
-        background-color: black;
-        color: white;
-        border: 1px solid black;
-        border-radius: 50px;
+        @include black-btn;
         padding: 10px;
         font-size: 12px;
         box-shadow: black 0px 1.5px;
+        
         &:hover {
             cursor: pointer;
             transform: translateY(2px);

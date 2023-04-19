@@ -1,3 +1,6 @@
+// mixins
+@import '../../scss/abstracts/mixins';
+
 .project-window {
 
     .number {
@@ -8,9 +11,7 @@
     }
     
     .window {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        @include center-column;
         border: 1px solid black;
         margin: 30px 10px;
 
@@ -32,13 +33,10 @@
                 gap: 15px;
 
                 .visit-btn {
-                    font-size: 12px;
-                    background-color: black;
-                    color: white;
-                    border-radius: 50px;
-                    border: 1px solid black;
-                    padding: 5px 11px;
+                    @include black-btn;
                     box-shadow: 0px 2px 0px 0px #000000;
+                    font-size: 12px;
+                    padding: 5px 11px;
                 }
 
                 .Portfolio {
@@ -46,12 +44,10 @@
                 }
 
                 .code-btn {
-                    background-color: transparent;
-                    border-radius: 50px;
-                    border: 1px solid black;
+                    @include white-btn;
+                    box-shadow: 0px 2px 0px 0px #000000;
                     padding: 3px 8px;
                     font-size: 12px;
-                    box-shadow: 0px 2px 0px 0px #000000;
                 }
             }
 

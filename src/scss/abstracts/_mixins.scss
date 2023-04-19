@@ -1,0 +1,37 @@
+// flex
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin center-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+// buttons
+
+@mixin black-btn {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+@mixin white-btn {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+// titles
+
+@mixin section-title {
+    font-size: 18px;
+    font-family: var(--baloo-font);
+    font-weight: 600;
+    padding-left: 30px;
+}
