@@ -24,7 +24,7 @@ const ProjectWindow = () => {
 
                         <div className="project-img-container">
                             <img 
-                            src={`src/assets/img/Projects/${img}`} 
+                            src={`../../src/assets/img/Projects/${img}`} 
                             alt="project-img" 
                             className="project-img" />
                         </div>
