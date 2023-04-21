@@ -19,7 +19,7 @@ const Technologies = () => {
                         return (
                             <div key={id} className={`technology ${ name}`}>
                                 <img 
-                                src={`/src/assets/img/Technologies/${img}`}
+                                src={`src/assets/img/Technologies/${img}`}
                                 alt={name} 
                                 className={`technology-img`} />
                             </div>
