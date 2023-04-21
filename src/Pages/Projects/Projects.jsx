@@ -5,7 +5,7 @@ import ProjectWindow from '../../components/ProjectWindow/ProjectWindow'
 const Projects = () => {
   return (
     <>
-        <div className='projects'>
+        <div className='projects' id='projects'>
             <h1 className="projects-h1">PROJECTS</h1>
             <div className="window">
                 <div className="title">Take a look at what I've been working at.</div>

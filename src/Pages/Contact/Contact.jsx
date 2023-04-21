@@ -4,7 +4,7 @@ import arrow from '../../assets/img/Contact/arrow.png'
 const Contact = () => {
   return (
     <>
-        <div className="contact">
+        <div className="contact" id='contact'>
             <h1 className="contact-h1">CONTACT</h1>
 
             <div className="contact-title-container">
@@ -23,22 +23,32 @@ const Contact = () => {
                     <form>
                         <div className="input-container">
                             <div className="name">Name</div>
-                            <input type="text" className="input-name" />
+                            <input 
+                            type="text" 
+                            placeholder="What's your name?"
+                            className="input-name" />
                         </div>
                         <div className="input-container">
                             <div className="email">Email</div>
-                            <input type="text" className="input-email" />
+                            <input 
+                            type="text"
+                            placeholder='Your email'
+                             className="input-email" />
                         </div>
                         <div className="input-container">
                             <div className="subject">Subject</div>
-                            <input type="text" className="input-subject" />
+                            <input 
+                            type="text" 
+                            placeholder='Feedback or suggestions'
+                            className="input-subject" />
                         </div>
 
                         <textarea 
                         name="textarea" 
-                        id="" 
+                        id="message" 
                         cols="30" 
                         rows="15"
+                        placeholder='Say hi!'
                         className='textarea'
                         >
                         </textarea>

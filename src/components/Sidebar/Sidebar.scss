@@ -1,0 +1,36 @@
+// mixims
+@import '../../scss/abstracts/mixins';
+
+.sidebar-container {
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+    position: fixed;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    .section-container {
+        @include center-column;
+        padding-top: 60px;
+        gap: 40px;
+       a {
+
+        color: black;
+
+           li {
+               text-align: start;
+               list-style-type: none;
+               font-size: 18px;
+               width: 100%;
+               font-weight: 500;
+               text-transform: uppercase;
+    
+               &:hover {
+                   cursor: pointer;
+                   text-decoration: underline;
+               }
+               }
+       }
+
+        }
+    
+}

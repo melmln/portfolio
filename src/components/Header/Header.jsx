@@ -1,14 +1,17 @@
 import './Header.scss';
-import burgerMenu from '../../assets/icons/burger-menu.png'
+import BurgerMenu from '../../components/BurgerMenu/BurgerMenu';
  
 const Header = () => {
+
   return (
-    <>
+    <> 
       <nav>
-          <div className="burger-menu">
-            <img src={burgerMenu} alt="" className="burger-menu-icon" />
+          <div className={`burger-menu `}>
+            <BurgerMenu/>
           </div>
-          <button className="hello-btn">Say hello</button>
+          <a href="#message">
+            <button className="hello-btn">Say hello</button>
+          </a>
       </nav>
     </>
   )

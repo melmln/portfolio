@@ -21,13 +21,5 @@
         "img": "pinned-project.png",
         "type": "Web App",
         "description": "Responsive web app developed with JavaScript, CSS. and SweetAlert library. The app allows users to take notes, save them, and listen to music."
-    },
-
-    {
-        "id": "04.",
-        "title": "Portfolio",
-        "img": "portfolio-project.png",
-        "type": "Personal Portfolio",
-        "description": "Personal portfolio website developed with React.js and Sass. My first UX/UI design project done with Figma."
     }
 ]

@@ -5,7 +5,7 @@ import technologies from '../../utils/technologies.json'
 const Technologies = () => {
   return (
     <>
-    <div className='technologies'>
+    <div className='technologies' id='technologies'>
         <h1 className='technologies-h1'>TECHNOLOGIES</h1>
 
         <div className="window">
@@ -19,7 +19,7 @@ const Technologies = () => {
                         return (
                             <div key={id} className={`technology ${ name}`}>
                                 <img 
-                                src={`../../assets/img/Technologies/${img}`}
+                                src={`/src/assets/img/Technologies/${img}`}
                                 alt={name} 
                                 className={`technology-img`} />
                             </div>

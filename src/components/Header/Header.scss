@@ -4,6 +4,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 15px 20px;
     position: fixed;
     width: 100%;
@@ -22,6 +23,10 @@ nav {
             transform: translateY(2px);
             transition: ease 0.16s;
         }
+    }
+
+    .burger-menu {
+        display: flex;
     }
 }
 

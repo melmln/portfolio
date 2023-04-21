@@ -7,7 +7,7 @@ import behanceIcon from '../../assets/icons/behance-icon.png'
 const Intro = () => {
   return (
     <>
-        <div className="intro">
+        <div className="intro" id='intro'>
             <div className="info-intro-container">
               <h5>Hi! My name is</h5>
               <h1 className="my-name">Melany Molina Verdún</h1>
@@ -20,7 +20,9 @@ const Intro = () => {
               </div>
             </div>
 
-            <button className="resume-btn">Resume</button>
+            <a href="src\assets\Frontend Developer - Melany Molina Verdún.pdf" download>
+              <button className="resume-btn">Resume</button>
+            </a>
         
             <div className="social-networks-container">
               <div className="line"></div>

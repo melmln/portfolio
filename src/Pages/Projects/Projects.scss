@@ -2,6 +2,7 @@
 @import '../../scss/abstracts/mixins';
 
 .projects {
+    padding-top: 40px;
     .projects-h1 {
         @include section-title;
     }

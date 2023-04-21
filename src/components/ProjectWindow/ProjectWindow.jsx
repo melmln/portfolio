@@ -9,7 +9,7 @@ const ProjectWindow = () => {
             
         return (
 
-                <div className="project-window">
+                <div key={id} className="project-window">
                     <div className="number">{id}</div>
 
                     <div className="window">
@@ -24,7 +24,7 @@ const ProjectWindow = () => {
 
                         <div className="project-img-container">
                             <img 
-                            src={`src/assets/img/Projects/${img}`} 
+                            src={`/src/assets/img/Projects/${img}`} 
                             alt="project-img" 
                             className="project-img" />
                         </div>
