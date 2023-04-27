@@ -20,7 +20,7 @@ const Intro = () => {
               </div>
             </div>
 
-            <a href="src\assets\Frontend Developer - Melany Molina Verdún.pdf" download>
+            <a href="Frontend Developer - Melany Molina Verdún.pdf" download>
               <button className="resume-btn">Resume</button>
             </a>
         
