@@ -1,5 +1,5 @@
 import './BurgerMenu.scss';
-import burgerMenu from '../../assets/icons/burger-menu.png';
+import burgerMenu from '../../../public/assets/icons/burger-menu.svg';
 import { useEffect, useState, useRef } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 

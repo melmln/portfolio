@@ -1,4 +1,6 @@
 import "./About.scss";
+import heartIcon from '../../../public/assets/icons/heart-icon.svg'
+
 const About = () => {
   return (
     <>
@@ -13,7 +15,9 @@ const About = () => {
                 <div className="user-pic"></div> 
                 <div className="username">mel.molina</div>
             </div>
-            <div className="heart">🧡</div>
+            <div className="heart">
+              <img src={heartIcon} alt="heart-icon" />
+            </div>
             <div className="user-likes">Liked by <span className="underline">you</span> and 6 others </div>
           </div>
 

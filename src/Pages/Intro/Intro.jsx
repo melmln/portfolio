@@ -1,8 +1,10 @@
 import './Intro.scss';
-import avatar from '../../assets/avatar.png'
-import linkedinIcon from '../../assets/icons/linkedin-icon.png'
-import githubIcon from '../../assets/icons/github-icon.png'
-import behanceIcon from '../../assets/icons/behance-icon.png'
+// assets
+import avatar from '../../../public/assets/avatar.png'
+import linkedinIcon from '../../../public/assets/icons/linkedin-icon.svg'
+import githubIcon from '../../../public/assets/icons/github-icon.svg'
+import behanceIcon from '../../../public/assets/icons/behance-icon.svg'
+
 
 const Intro = () => {
   return (
@@ -27,9 +29,18 @@ const Intro = () => {
             <div className="social-networks-container">
               <div className="line"></div>
               <div className="social-networks">
-                <img src={linkedinIcon} alt="linkedin" className="linkedin-icon" />
-                <img src={githubIcon} alt="github" className="github-icon" />
-                <img src={behanceIcon} alt="behance" className="behance-icon" />
+
+                  <a href="https://www.linkedin.com/in/melany-molina-verdun/" target='_blank'>
+                    <img src={linkedinIcon} alt="linkedin" className="linkedin-icon" />
+                  </a>
+     
+                  <a href="https://github.com/melmln" target='_blank'>
+                    <img src={githubIcon} alt="github" className="github-icon" />
+                  </a>
+     
+                  <a href="https://www.behance.net/melanymolina2" target='_blank'>
+                  <img src={behanceIcon} alt="behance" className="behance-icon" />
+                  </a>  
               </div>
               <div className="line"></div>
             </div>

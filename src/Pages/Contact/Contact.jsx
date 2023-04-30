@@ -1,5 +1,5 @@
 import './Contact.scss'
-import arrow from '../../assets/img/Contact/arrow.png'
+import arrow from '../../../public/assets/img/Contact/arrow.png'
 
 const Contact = () => {
   return (
@@ -25,13 +25,15 @@ const Contact = () => {
                             <div className="name">Name</div>
                             <input 
                             type="text" 
+                            name='name'
                             placeholder="What's your name?"
                             className="input-name" />
                         </div>
                         <div className="input-container">
                             <div className="email">Email</div>
                             <input 
-                            type="text"
+                            type="email"
+                            name='email'
                             placeholder='Your email'
                              className="input-email" />
                         </div>
@@ -39,6 +41,7 @@ const Contact = () => {
                             <div className="subject">Subject</div>
                             <input 
                             type="text" 
+                            name='subject'
                             placeholder='Feedback or suggestions'
                             className="input-subject" />
                         </div>
@@ -52,10 +55,11 @@ const Contact = () => {
                         className='textarea'
                         >
                         </textarea>
+                        
+                        <div className="lets-talk-container">
+                            <button className="lets-talk-btn" type='submit'>Let's talk!</button>
+                        </div>
                     </form>
-                    <div className="lets-talk-container">
-                        <button className="lets-talk-btn">Let's talk!</button>
-                    </div>
                 </div>
             </div>
         </div>
