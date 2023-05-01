@@ -80,3 +80,80 @@
 }
 
 }
+
+/* --------- Media queries ---------- */
+
+@media screen and (min-width: 768px) {
+    
+.about {
+    padding: 0 50px;
+    margin-top: 70px;
+    padding-top: 0;
+    height: 100vh;
+    
+
+.about-h1 {
+    font-size: 30px;
+}
+
+.window {
+    height: fit-content;
+
+    .title {
+        display: flex;
+        align-items: center;
+        font-size: 65px;
+        padding-left: 50px;
+    }
+
+    .user-container {
+        padding-left: 30px;
+        height: 150px;
+
+        .user-avatar {
+            padding: 20px;
+
+            .user-pic {
+                height: 70px;
+                width: 70px;
+            }
+        }
+
+        .username {
+            height: 150px;
+            padding: 0 30px;
+            font-size: 26px;
+        }
+
+        .heart {
+            padding-left: 20px;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .user-likes {
+            font-size: 24px;
+        }
+    }
+
+    .post {
+        align-self: center;
+        font-size: 24px;
+        line-height: 45px;
+        width: 92%;
+        padding: 40px 0;
+    }
+
+    .hobbies {
+        padding-left: 65px;
+        padding-top: 20px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+}
+
+}
+}
