@@ -1,5 +1,5 @@
 import './Projects.scss'
-import codeIllustration from '../../../public/assets/img/Projects/code-illustration.png'
+import codeIllustration from '../../../src/assets/img/Projects/code-illustration.png'
 import ProjectWindow from '../../components/ProjectWindow/ProjectWindow'
 
 const Projects = () => {

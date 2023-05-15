@@ -1,5 +1,5 @@
 import './Contact.scss'
-import arrow from '../../../public/assets/img/Contact/arrow.png'
+import arrow from '../../../src/assets/img/Contact/arrow.png'
 
 const Contact = () => {
   return (

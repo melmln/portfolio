@@ -1,9 +1,9 @@
 import './Intro.scss';
 // assets
-import avatar from '../../../public/assets/avatar.png'
-import linkedinIcon from '../../../public/assets/icons/linkedin-icon.svg'
-import githubIcon from '../../../public/assets/icons/github-icon.svg'
-import behanceIcon from '../../../public/assets/icons/behance-icon.svg'
+import avatar from '../../../src/assets/avatar.png'
+import linkedinIcon from '../../../src/assets/icons/linkedin-icon.svg'
+import githubIcon from '../../../src/assets/icons/github-icon.svg'
+import behanceIcon from '../../../src/assets/icons/behance-icon.svg'
 
 
 const Intro = () => {

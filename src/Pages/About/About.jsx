@@ -1,5 +1,5 @@
 import "./About.scss";
-import heartIcon from '../../../public/assets/icons/heart-icon.svg'
+import heartIcon from '../../../src/assets/icons/heart-icon.svg'
 
 const About = () => {
   return (
