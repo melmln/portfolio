@@ -1,5 +1,5 @@
 import './ProjectWindow.scss'
-import projects from '../../utils/projects.json'
+import projects from '../../utils/projects'
 
 const ProjectWindow = () => {
   return (

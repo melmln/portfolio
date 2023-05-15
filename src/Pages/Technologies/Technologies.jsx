@@ -1,6 +1,6 @@
 import './Technologies.scss'
 
-import technologies from '../../utils/technologies.json'
+import techData from '../../utils/technologies.js'
 
 const Technologies = () => {
   return (
@@ -12,14 +12,14 @@ const Technologies = () => {
             <div className="title">Check out what I'm good at.</div>
             
                 <div className="technologies-list">
-                    {technologies.map((technology) => {
+                    {techData.map((technology) => {
 
                             const {name, id, img} = technology
 
                         return (
                             <div key={id} className={`technology ${ name}`}>
                                 <img 
-                                src={`public/assets/img/Technologies/${img}`} 
+                                src= {img}
                                 alt={name} 
                                 className={`technology-img`} />
                             </div>
