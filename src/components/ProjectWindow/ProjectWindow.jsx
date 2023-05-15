@@ -1,9 +1,9 @@
 import './ProjectWindow.scss'
-import projects from '../../utils/projects'
+import projectsData from '../../utils/projectsData.js'
 
 const ProjectWindow = () => {
   return (
-    <>  {projects.map((project) => {
+    <>  {projectsData.map((project) => {
 
         const {id, title, img, description, type} = project;
             
@@ -24,7 +24,7 @@ const ProjectWindow = () => {
 
                         <div className="project-img-container">
                             <img 
-                            src={`public/assets/img/Projects/${img}`} 
+                            src={img} 
                             alt="project-img" 
                             className="project-img" />
                         </div>

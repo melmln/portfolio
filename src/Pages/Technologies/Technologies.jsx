@@ -1,6 +1,6 @@
 import './Technologies.scss'
 
-import techData from '../../utils/technologies.js'
+import techData from '../../utils/techData.js'
 
 const Technologies = () => {
   return (
